@@ -5,13 +5,13 @@ function Cards() {
     <div className='container'>
         <div className='row'>
         <div className='col-md-4'>
-                <Card/>
+                <Card id="1"/>
             </div>
             <div className='col-md-4'>
-                <Card/>
+                <Card id="2"/>
             </div>
             <div className='col-md-4'>
-                <Card/>
+                <Card id="3"/>
             </div>
             
         </div>

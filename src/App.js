@@ -9,18 +9,14 @@ import './Components/NavStyle.css'
 
 function App() {
   return (
-    <>
-      <div className=''>
-        <Nav />
-        <Banner />
-        <Cards />
-        <Footer/>
-      </div>
-    </>
-    
+        <div className=''>
+          <Nav />
+          <Banner />
+          <Cards />
+          <Footer />
+        </div>
   )
 }
-
 export default App
 
 

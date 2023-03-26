@@ -14,20 +14,22 @@ function Footer() {
 
                             <div className="logo d-flex">
                                 <a href="index.html"><img src={imagen1} alt="Logo" className="img-logo"></img></a>
-                                <h1 className='center-nav mx-3'><a href="index.html"><span style={{color:"black"}}>Marketplace</span></a></h1>
+                                <h1 className='center-nav mx-3'><a href="index.html"><span style={{ color: "black" }}>Marketplace</span></a></h1>
                             </div>
                             <p>
                                 Proyecto para Factores Humanso de la universidad Distrital sobre un Marketplace de componentes computacionales.
                             </p>
                         </div>
-                        
+
                         <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
 
                             <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
                             <div>
-                            <i className="bi bi-instagram m-1"></i>   
-                            <i className="bi bi-facebook m-1"></i>
-                            <i className="bi bi-whatsapp m-1"></i> 
+                                <i className="bi bi-instagram m-1"></i>
+                                <i className="bi bi-facebook m-1"></i>
+                                <i className="bi bi-whatsapp m-1"></i>
+                                <i className="bi bi-twitter"></i>
+                                
                             </div>
                             <p>
                                 <i className="fas fa-home me-1"></i> Bogotá , Col
@@ -49,7 +51,7 @@ function Footer() {
             </div>
 
             <div className="text-center p-4">
-                © 2023 Copyright: 
+                © 2023 Copyright:
                 <a className="text-reset fw-bold" href="#" title='Udesarrolladores web'> Udesarrolladores.com</a>
             </div>
 

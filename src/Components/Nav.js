@@ -13,10 +13,10 @@ function Nav() {
 
         <nav id="navbar" className="navbar">
           <ul>
-            <li><a className="nav-link scrollto" href="#">Home <i class="bi bi-house"></i></a></li>
-            <li><a className="nav-link scrollto" href="#">About <i class="bi bi-person-vcard-fill"></i></a></li>
-            <li><a className="nav-link scrollto" href="#">Cart<i class="bi bi-cart-check"></i></a></li>
-            <li><a className="nav-link scrollto" href="#">Products <i class="bi bi-box"></i></a></li>
+            <li><a className="nav-link scrollto" href="/">Home <i class="bi bi-house"></i></a></li>
+            <li><a className="nav-link scrollto" href="/About">About <i class="bi bi-person-vcard-fill"></i></a></li>
+            <li><a className="nav-link scrollto" href="/Cart">Cart<i class="bi bi-cart-check"></i></a></li>
+            <li><a className="nav-link scrollto" href="/Products">Products <i class="bi bi-box"></i></a></li>
             <li className="dropdown"><a href="#"><span>Support <i class="bi bi-clipboard-plus"></i></span> <i className="bi bi-chevron-down"></i></a>
               <ul>
                 <li><a href="#">Contact Us</a></li>
@@ -33,7 +33,7 @@ function Nav() {
                 <li><a href="#">Feedback</a></li>
               </ul>
             </li>
-            <li><a className="nav-link scrollto" href="#">profile <i class="bi bi-person-circle"></i></a></li>
+            <li><a className="nav-link scrollto" href="/profile">profile <i class="bi bi-person-circle"></i></a></li>
           </ul>
           <i className="bi bi-list mobile-nav-toggle"></i>
         </nav>
