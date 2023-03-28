@@ -19,7 +19,7 @@ function Nav() {
             <li><a className="nav-link scrollto" href="/Products">Products <i class="bi bi-box"></i></a></li>
             <li className="dropdown"><a href="#"><span>Support <i class="bi bi-clipboard-plus"></i></span> <i className="bi bi-chevron-down"></i></a>
               <ul>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="/Contact">Contact Us</a></li>
                 {/* <li className="dropdown"><a href="#"><span>Deep Drop Down</span> <i className="bi bi-chevron-right"></i></a>
                   <ul>
                     <li><a href="#">Deep Drop Down 1</a></li>
@@ -29,11 +29,16 @@ function Nav() {
                     <li><a href="#">Deep Drop Down 5</a></li>
                   </ul>
                 </li> */}
-                <li><a href="#">Who are us?</a></li>
-                <li><a href="#">Feedback</a></li>
+                {/* <li><a href="#">Who are us?</a></li>
+                <li><a href="#">Feedback</a></li> */}
               </ul>
             </li>
-            <li><a className="nav-link scrollto" href="/profile">profile <i class="bi bi-person-circle"></i></a></li>
+            <li className="dropdown"><a className="nav-link scrollto" href="/profile">profile <i class="bi bi-person-circle"> <i className="bi bi-chevron-down"></i></i></a>
+              <ul>
+                <li><a href="/Profile">View Profile</a></li>
+                <li><a href="/Login">Exit</a></li>
+              </ul>
+            </li>
           </ul>
           <i className="bi bi-list mobile-nav-toggle"></i>
         </nav>

@@ -46,10 +46,12 @@ h6 {
   overflow: hidden;
   background: #fff;
 }
-.bg-light-blue-card{
+
+.bg-light-blue-card {
   background-color: rgb(207, 226, 243) !important;
 }
-.center-nav{
+
+.center-nav {
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -58,36 +60,92 @@ h6 {
   padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
 }
 
+.formStructure {
+  text-align: center !important;
+  display: flex;
+  justify-content: center;
+}
+
+.contactForm {
+  width: 500px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 42px 55px 45px;
+}
+
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
- --mdb-nav-pills-link-active-bg:#e3ebf7;
- --mdb-nav-pills-link-active-color:#285192;
- background-color:var(--mdb-nav-pills-link-active-bg) !important;
- color:var(--mdb-nav-pills-link-active-color) !important;
+  --mdb-nav-pills-link-active-bg: #e3ebf7;
+  --mdb-nav-pills-link-active-color: #285192;
+  background-color: var(--mdb-nav-pills-link-active-bg) !important;
+  color: var(--mdb-nav-pills-link-active-color) !important;
 }
 
 .btn-register .nav-link.active,
 .btn-register .show>.nav-link {
- --mdb-nav-pills-link-active-bg:#e3ebf7;
- --mdb-nav-pills-link-active-color:#285192;
- background-color:var(--mdb-nav-pills-link-active-bg) !important;
- color:var(--mdb-nav-pills-link-active-color) !important;
+  --mdb-nav-pills-link-active-bg: #e3ebf7;
+  --mdb-nav-pills-link-active-color: #285192;
+  background-color: var(--mdb-nav-pills-link-active-bg) !important;
+  color: var(--mdb-nav-pills-link-active-color) !important;
 }
 
-.login-display{
-  width: 26rem;
+.buttonColorBlue {
+  background-color: #023B6D !important;
+  border-color: #023B6D !important;
 }
 
-.app-badge{
+.img-card{
+  max-width: 342px;
+  max-height: 342px;
+  min-width: 342px;
+  min-height: 342px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100% 100%;
+  background-color:#023B6D;
+  border-radius: 50%;
+}
+
+.img-main-carousel {
+  width: 100%;
+  max-height: 600px;
+  opacity: 0.6;
+}
+
+.overlay-carousel{
+  background: #333;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.login-display {
+  width: 30rem;
+  background: white;
+  padding: 4rem;
+}
+
+.app-badge {
   height: 3rem;
 }
-.img-logo{
+
+.img-logo {
   width: 80px;
 }
-.bg-blue{
+
+.bg-blue {
   background-color: #023B6D;
 }
-.btn-compra{
+
+.btn-compra {
   margin-left: auto;
   display: flex !important;
 }
@@ -259,9 +317,11 @@ h6 {
   visibility: visible;
   width: 25px;
 }
-.art-agregado{
+
+.art-agregado {
   background-color: #18d26e !important;
 }
+
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,

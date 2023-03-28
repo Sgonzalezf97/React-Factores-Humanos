@@ -1,18 +1,18 @@
 import React from 'react'
-import Carts from '../Components/Carts'
+import ProductsList from '../Components/ProductsList'
 import Footer from '../Components/Footer'
 import Nav from '../Components/Nav'
 import '../Components/NavStyle.css'
 
 
-
-function Cart() {
+function Products() {
   return (
-        <div className=''>
+    <div className=''>
           <Nav />
-          <Carts />
+          <ProductsList />
           <Footer />
         </div>
   )
 }
-export default Cart
+
+export default Products

@@ -2,8 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import Cart from './Routes/Cart';
+import About from './Routes/About';
 import Login from './Routes/LogReg';
 import Reg from './Routes/Reg';
+import Products from './Routes/Products';
+import Contact from './Routes/Contact';
+import Profile from './Routes/Profile';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css' 
 import 'bootstrap-icons/font/bootstrap-icons.css'
@@ -11,6 +15,8 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+
+
 
 
 const router = createBrowserRouter([
@@ -28,19 +34,23 @@ const router = createBrowserRouter([
   },
   {
     path: "/About",
-    element: <div><Cart /></div>,
+    element: <div><About /></div>,
   },
   {
     path: "/Profile",
-    element: <div><Cart /></div>,
+    element: <div><Profile /></div>,
   },
   {
     path: "/Products",
-    element: <div><Cart /></div>,
+    element: <div><Products /></div>,
   },
   {
     path: "/Register",
     element: <div><Reg /></div>,
+  },
+  {
+    path: "/Contact",
+    element: <div><Contact /></div>,
   },
 ]);
 
