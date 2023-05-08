@@ -7,11 +7,11 @@ import '../Components/NavStyle.css'
 
 function Products() {
   return (
-    <div className=''>
-          <Nav />
-          <ProductsList />
-          <Footer />
-        </div>
+    <>
+      <Nav />
+      <ProductsList />
+      <Footer />
+    </>
   )
 }
 

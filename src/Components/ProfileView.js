@@ -1,10 +1,15 @@
-import React from 'react'
+import React , { useState }from 'react'
 import '../Components/NavStyle.css'
 import imagen2 from '../Assets/Sebastian.png'
 import imagenCard from '../Assets/CreditCard.jpg'
+import ModalView from './ModalView'
 
 
 function ProfileView() {
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
     return (
         <section className="">
             <div className="container py-5 h-100">
@@ -100,7 +105,8 @@ function ProfileView() {
                                 </div>
                             </div>
                         </div>
-                        <button type="button" class="btn btn-primary buttonColorBlue">New Card</button> 
+                        <button type="button" class="btn btn-primary buttonColorBlue" onClick={handleShow}>New Card</button> 
+                        <ModalView show={show} handleClose={handleClose} title="Nueva tarjeta" body="Se ha agreagado una nueva tarjeta !"/>
                     </div>
                 </div>
             </div>

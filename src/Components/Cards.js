@@ -9,9 +9,9 @@ import Imagen4 from '../Assets/ssd.png'
 
 function Cards() {
   return (
-    <div>
-      <div className='row'>
-      </div>
+    <>
+      <div className='p-5'>
+      
       <Carousel>
         <Carousel.Item>
           <div className='container'>
@@ -71,7 +71,8 @@ function Cards() {
           </div>
         </Carousel.Item>
       </Carousel>
-    </div>
+      </div>
+    </>
   )
 }
 

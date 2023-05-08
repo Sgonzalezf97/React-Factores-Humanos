@@ -13,11 +13,11 @@ function Footer() {
                         <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 
                             <div className="logo d-flex">
-                                <a href="index.html"><img src={imagen1} alt="Logo" className="img-logo"></img></a>
-                                <h1 className='center-nav mx-3'><a href="index.html"><span style={{ color: "black" }}>Marketplace</span></a></h1>
+                                <a href="/"><img src={imagen1} alt="Logo" className="img-logo"></img></a>
+                                <h1 className='center-nav mx-3'><a href="/"><span style={{ color: "black" }}>TechMart</span></a></h1>
                             </div>
                             <p>
-                                Proyecto para Factores Humanso de la universidad Distrital sobre un Marketplace de componentes computacionales.
+                                Proyecto para Factores Humanos de la universidad Distrital sobre un Marketplace de componentes computacionales.
                             </p>
                         </div>
 
@@ -40,8 +40,8 @@ function Footer() {
                         </div>
                         <div className="me-5 d-none d-lg-block text-center">
                             <p>Get connected with us on social networks:</p>
-                            <a className="me-lg-3 mb-4 mb-lg-0" href="#!"><img className="app-badge" src={GooglePlay} alt="Google play store" title='Google play store'></img></a>
-                            <a href="#!"><img className="app-badge" src={AppStore} alt="Apple store" title='Apple store'></img></a>
+                            <a className="me-lg-3 mb-4 mb-lg-0" href="https://play.google.com/store/games?hl=es_CO&gl=US"><img className="app-badge" src={GooglePlay} alt="Google play store" title='Google play store'></img></a>
+                            <a href="https://www.apple.com/store"><img className="app-badge" src={AppStore} alt="Apple store" title='Apple store'></img></a>
 
                         </div>
 

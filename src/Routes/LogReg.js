@@ -5,10 +5,10 @@ import '../Components/NavStyle.css'
 
 function LogReg() {
   return (
-    <div>
+    <>
         <Login />
         <Footer />
-    </div>
+    </>
   )
 }
 

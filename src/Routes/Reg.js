@@ -4,10 +4,10 @@ import Footer from '../Components/Footer'
 
 function Reg() {
   return (
-    <div>
+    <>
       <Register/>
       <Footer />
-    </div>
+    </>
     
   )
 }

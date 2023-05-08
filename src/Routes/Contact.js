@@ -6,11 +6,11 @@ import '../Components/NavStyle.css'
 
 function Contact() {
     return (
-        <div>
+        <>
             <Nav />
             <ContactForm />
             <Footer />
-        </div>
+        </>
     )
 }
 

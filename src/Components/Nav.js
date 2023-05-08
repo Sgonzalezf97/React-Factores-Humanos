@@ -1,14 +1,16 @@
 import React from 'react'
 import imagen1 from '../Assets/Logo-blanco.png'
+import AccessBar from './AccessBar';
 
 function Nav() {
   return (
+    <>
     <div className=' bg-blue' >
       <div className="container d-flex align-items-center justify-content-between">
 
         <div className="logo d-flex">
           <a href="index.html"><img src={imagen1} alt="Logo" className="img-logo"></img></a>
-          <h1 className='center-nav mx-3'><a href="index.html"><span>Marketplace</span></a></h1>
+          <h1 className='center-nav mx-3'><a href="index.html"><span>TechMart</span></a></h1>
         </div>
 
         <nav id="navbar" className="navbar">
@@ -45,6 +47,8 @@ function Nav() {
 
       </div>
     </div>
+    <AccessBar />
+    </>
   );
 }
 

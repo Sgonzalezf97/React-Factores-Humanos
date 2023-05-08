@@ -8,11 +8,11 @@ import '../Components/NavStyle.css'
 
 function Cart() {
   return (
-        <div className=''>
+        <>
           <Nav />
           <Carts />
           <Footer />
-        </div>
+        </>
   )
 }
 export default Cart
